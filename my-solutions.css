@@ -174,14 +174,12 @@
 }
 
 .ex-13-button:hover .ex-13-top-white {
-  background-color: blue !important;
   animation: move-top-complete;
   animation-duration: 2s;
-  animation-timing-function: ease;
+  animation-timing-function: linear;
 }
 .ex-13-button:hover .ex-13-bottom-white {
-  background-color: blue !important;
   animation: move-bottom-complete;
   animation-duration: 2s;
-  animation-timing-function: ease;
+  animation-timing-function: linear;
 }
