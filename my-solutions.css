@@ -93,8 +93,43 @@
   animation-fill-mode: backwards;
 }
 
+/* ESERCIZIO 12test */
+
+/* .ex-12-button {
+  transition-property: left, right;
+  transition-duration: 2s;
+  transition-delay: 2s;
+}
+.ex-12-button:hover .ex-12-top-white {
+  left: 60%;
+} */
+
+
+
 /* ESERCIZIO 12 */
-/* ESERCIZIO 13 */
+@keyframes move-top {
+  0% { left: 10%; }
+  75% { left: calc(100% - 70px); }
+  100% { left: 10%; }
+
+}
+@keyframes move-bottom {
+  0% { right: 20%; }
+  75% { right: calc(100% - 70px); }
+  100% { right: 20%; }
+
+}
+.ex-12-button:hover .ex-12-top-white {
+  animation: move-top;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: move-bottom;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
 /* ESERCIZIO 1 */
 /* ESERCIZIO 1 */
 /* ESERCIZIO 1 */
