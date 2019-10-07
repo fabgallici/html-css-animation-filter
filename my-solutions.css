@@ -61,7 +61,16 @@
   filter: invert(100%) contrast(150%);
 }
 /* ESERCIZIO 9 */
+.ex-9-img {
+  transition: all ease 3s;
+}
+.ex-9-img:hover {
+  border-radius: 20px;
+  transform: scale(1.15);
+  filter: sepia(80%) saturate(3);
+}
 /* ESERCIZIO 10 */
+
 /* ESERCIZIO 11 */
 /* ESERCIZIO 12 */
 /* ESERCIZIO 13 */
