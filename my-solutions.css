@@ -81,7 +81,7 @@
   animation-name: rotation;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  /* transition: transform linear; */
+  animation-timing-function: linear;
 }
 /* ESERCIZIO 11 */
 /* ESERCIZIO 12 */
