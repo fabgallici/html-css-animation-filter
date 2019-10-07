@@ -53,6 +53,13 @@
   filter: drop-shadow(20px 20px 10px gray) grayscale(1);
 }
 /* ESERCIZIO 8 */
+.ex-8-img {
+  transition: all ease 3s;
+}
+.ex-8-img:hover {
+  border-radius: 20px;
+  filter: invert(100%) contrast(150%);
+}
 /* ESERCIZIO 9 */
 /* ESERCIZIO 10 */
 /* ESERCIZIO 11 */
