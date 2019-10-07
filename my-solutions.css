@@ -6,9 +6,15 @@
   background-color: red;
 }
 
+/* ESERCIZIO 2*/
+.ex-2-square {
+  transition: width 3s;
+  transition-timing-function: linear;
+}
 
-
-/* ESERCIZIO 1 */
+.ex-2-square:active {
+  width: 100%;
+}
 /* ESERCIZIO 1 */
 /* ESERCIZIO 1 */
 /* ESERCIZIO 1 */
