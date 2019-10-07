@@ -93,19 +93,6 @@
   animation-fill-mode: backwards;
 }
 
-/* ESERCIZIO 12test */
-
-/* .ex-12-button {
-  transition-property: left, right;
-  transition-duration: 2s;
-  transition-delay: 2s;
-}
-.ex-12-button:hover .ex-12-top-white {
-  left: 60%;
-} */
-
-
-
 /* ESERCIZIO 12 */
 @keyframes move-top {
   0% { left: 10%; }
