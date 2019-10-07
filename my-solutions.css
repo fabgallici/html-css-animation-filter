@@ -86,14 +86,13 @@
 /* ESERCIZIO 11 */
 @keyframes rotation-34-fast {
   0% {transform: rotate(0deg);}
-  /* 50% {transform: rotate(135deg);} */
   75% {transform: rotate(315deg);}
 }
 .ex-11-icon:hover {
-  animation: rotation-34-fast 2s cubic-bezier(0.25, 0.1, 0.25, 1.0);
+  animation: rotation-34-fast 2s ease-in;
   animation-fill-mode: backwards;
 }
-/* cubic-bezier(0.1, 0.7, 1.0, 0.1) */
+
 /* ESERCIZIO 12 */
 /* ESERCIZIO 13 */
 /* ESERCIZIO 1 */
